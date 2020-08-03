@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>3dea5f8b-f89a-49e4-8f70-ad3bf9ed1f55</ID>
   <ModName>KilledEnemyAutoAllowed (Continued)</ModName>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,7 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
