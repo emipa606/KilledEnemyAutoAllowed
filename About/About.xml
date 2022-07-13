@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>KilledEnemyAutoAllowed (Continued)</name>
   <packageId>Mlie.KilledEnemyAutoAllowed</packageId>
@@ -21,22 +21,26 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Darksides mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1858219355
 
 - Replaced the entire code with three harmony-patches instead. Hopefully this will make the code work nicer with other mods.
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/KilledEnemyAutoAllowed][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Killed enemy and dropped things, no matter if is in Home Area or not, is automatically allowed. Also applies to all pawns(e.g. colonists). 
 
@@ -45,7 +49,7 @@ KilledEnemyDontPushOutThings : https://steamcommunity.com/sharedfiles/filedetail
 Stockpile Stack Limit : https://steamcommunity.com/sharedfiles/filedetails/?id=1852323982
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -56,4 +60,3 @@ Stockpile Stack Limit : https://steamcommunity.com/sharedfiles/filedetails/?id=1
 [/list]
 </description>
 </ModMetaData>
-
