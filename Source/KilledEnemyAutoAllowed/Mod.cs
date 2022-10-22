@@ -1,16 +1,15 @@
 ﻿using HarmonyLib;
 using Verse;
 
-namespace KilledEnemyDontPushOutThings
-{
-    [StaticConstructorOnStartup]
-    public static class Mod
-    {
-        public const string Name = "KilledEnemyAutoAllowed";
+namespace KilledEnemyDontPushOutThings;
 
-        static Mod()
-        {
-            new Harmony("Mlie.KilledEnemyAutoAllowed").PatchAll();
-        }
+[StaticConstructorOnStartup]
+public static class Mod
+{
+    public const string Name = "KilledEnemyAutoAllowed";
+
+    static Mod()
+    {
+        new Harmony("Mlie.KilledEnemyAutoAllowed").PatchAll();
     }
 }
