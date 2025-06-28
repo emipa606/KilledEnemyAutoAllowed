@@ -2,9 +2,9 @@
 using RimWorld;
 using Verse;
 
-namespace KilledEnemyDontPushOutThings;
+namespace KilledEnemyAutoAllowed;
 
-[HarmonyPatch(typeof(ForbidUtility), "SetForbiddenIfOutsideHomeArea")]
+[HarmonyPatch(typeof(ForbidUtility), nameof(ForbidUtility.SetForbiddenIfOutsideHomeArea))]
 internal class ForbidUtility_SetForbiddenIfOutsideHomeArea
 {
     private static bool Prefix(ref Thing t)

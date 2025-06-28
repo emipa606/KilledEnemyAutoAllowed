@@ -1,9 +1,9 @@
 ﻿using HarmonyLib;
 using Verse;
 
-namespace KilledEnemyDontPushOutThings;
+namespace KilledEnemyAutoAllowed;
 
-[HarmonyPatch(typeof(Pawn_EquipmentTracker), "DropAllEquipment")]
+[HarmonyPatch(typeof(Pawn_EquipmentTracker), nameof(Pawn_EquipmentTracker.DropAllEquipment))]
 internal class Pawn_EquipmentTracker_DropAllEquipment
 {
     private static void Prefix(ref bool forbid)

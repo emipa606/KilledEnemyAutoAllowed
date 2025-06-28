@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using Verse;
 
-namespace KilledEnemyDontPushOutThings;
+namespace KilledEnemyAutoAllowed;
 
 [StaticConstructorOnStartup]
 public static class Mod
