@@ -5,9 +5,9 @@ using Verse;
 namespace KilledEnemyAutoAllowed;
 
 [HarmonyPatch(typeof(ForbidUtility), nameof(ForbidUtility.SetForbiddenIfOutsideHomeArea))]
-internal class ForbidUtility_SetForbiddenIfOutsideHomeArea
+internal static class ForbidUtility_SetForbiddenIfOutsideHomeArea
 {
-    private static bool Prefix(ref Thing t)
+    public static bool Prefix(ref Thing t)
     {
         if (!t.Spawned)
         {

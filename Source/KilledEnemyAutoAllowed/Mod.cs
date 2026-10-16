@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using System.Reflection;
+using HarmonyLib;
 using Verse;
 
 namespace KilledEnemyAutoAllowed;
@@ -8,6 +9,6 @@ public static class Mod
 {
     static Mod()
     {
-        new Harmony("Mlie.KilledEnemyAutoAllowed").PatchAll();
+        new Harmony("Mlie.KilledEnemyAutoAllowed").PatchAll(Assembly.GetExecutingAssembly());
     }
 }
